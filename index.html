@@ -28,6 +28,11 @@
       list-style: none;
     }
 
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
     .header {
       background-color: #15ABFF;
       box-shadow: 0 2px 2px rgba(129, 164, 183, 0.8);
@@ -70,7 +75,7 @@
 </head>
 <body>
   <header class="header">
-    <nav class="header__nav">
+    <nav class="header__nav container">
       <a class="header__brand" href="/">mythosil.com</a>
       <ul class="header__menu">
         <li><a href="https://github.com/mythosil"><i class="fab fa-github-square fa-2x"></i></a></li>
@@ -79,7 +84,7 @@
     </nav>
   </header>
 
-  <section>
+  <section class="container">
     <img src="./img/okinawa.jpg" alt="Okinawa">
   </section>
 
