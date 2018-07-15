@@ -1,42 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <!-- Global Site Tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106599739-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments)};
-      gtag('js', new Date());
-      gtag('config', 'UA-106599739-1');
-    </script>
+<html>
+<head>
+  <!-- Global Site Tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106599739-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments)};
+    gtag('js', new Date());
+    gtag('config', 'UA-106599739-1');
+  </script>
 
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="google-site-verification" content="Ek7LqZs0bfOYN4HKhgx3QlZK4SlcPSMq4xYUhuxgcuU" />
-    <title>in the mythosil</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-  </head>
-  <body>
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="http://mythosil.com">mythosil.com</a>
-        </div>
-      </div>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="google-site-verification" content="Ek7LqZs0bfOYN4HKhgx3QlZK4SlcPSMq4xYUhuxgcuU" />
+  <title>in the mythosil</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <style>
+    html, body, header, ul, li {
+      margin: 0;
+      padding: 0;
+    }
+    img {
+      vertical-align: middle;
+      width: 100%;
+    }
+    li {
+      list-style: none;
+    }
+
+    .header {
+      background-color: #15ABFF;
+      box-shadow: 0 2px 2px rgba(129, 164, 183, 0.8);
+      margin-bottom: 8px;
+    }
+    .header a {
+      text-decoration: none;
+    }
+    .header__nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .header__brand {
+      color: white;
+      font-size: 1.2rem;
+      font-weight: bold;
+      padding: 8px;
+    }
+    .header__menu {
+      display: flex;
+      align-items: center;
+    }
+    .header__menu li {
+      padding-right: 12px;
+    }
+    .header__menu i {
+      color: white;
+    }
+    .footer {
+      margin-top: 8px;
+      padding: 8px;
+      border-top: 1px solid #15ABFF;
+      text-align: center;
+    }
+    .footer__copyright {
+      font-size: 0.8rem;
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <nav class="header__nav">
+      <a class="header__brand" href="/">mythosil.com</a>
+      <ul class="header__menu">
+        <li><a href="https://github.com/mythosil"><i class="fab fa-github-square fa-2x"></i></a></li>
+        <li><a href="https://twitter.com/mythosil"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+      </ul>
     </nav>
-    <div id="container">
-      <div class="row">
-        <div class="col-xs-2"></div>
-        <div class="col-xs-8">
-          <img src="img/okinawa.jpg" class="img-responsive" alt="Okinawa">
-        </div>
-        <div class="col-xs-2"></div>
-      </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.2.0.slim.min.js" integrity="sha256-qLAv0kBAihcHZLI3fv3WITKeRsUX27hd6upBBa0MSow=" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  </body>
+  </header>
+
+  <section>
+    <img src="./img/okinawa.jpg" alt="Okinawa">
+  </section>
+
+  <footer class="footer">
+    <small class="footer__copyright">&copy;2018 mythosil.com</small>
+  </footer>
+</body>
 </html>
 
