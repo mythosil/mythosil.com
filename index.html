@@ -15,81 +15,116 @@
   <meta name="google-site-verification" content="Ek7LqZs0bfOYN4HKhgx3QlZK4SlcPSMq4xYUhuxgcuU" />
   <title>in the mythosil</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-  <style>
-    html, body, header, ul, li {
-      margin: 0;
-      padding: 0;
-    }
-    img {
-      vertical-align: middle;
-      width: 100%;
-    }
-    li {
-      list-style: none;
-    }
-
-    .container {
-      max-width: 960px;
-      margin: 0 auto;
-    }
-
-    .header {
-      background-color: #15ABFF;
-      box-shadow: 0 2px 2px rgba(129, 164, 183, 0.8);
-      margin-bottom: 8px;
-    }
-    .header a {
-      text-decoration: none;
-    }
-    .header__nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    .header__brand {
-      color: white;
-      font-size: 1.2rem;
-      font-weight: bold;
-      padding: 8px;
-    }
-    .header__menu {
-      display: flex;
-      align-items: center;
-    }
-    .header__menu li {
-      padding-right: 12px;
-    }
-    .header__menu i {
-      color: white;
-    }
-    .footer {
-      margin-top: 8px;
-      padding: 8px;
-      border-top: 1px solid #15ABFF;
-      text-align: center;
-    }
-    .footer__copyright {
-      font-size: 0.8rem;
-    }
-  </style>
+  <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-  <header class="header">
-    <nav class="header__nav container">
-      <a class="header__brand" href="/">mythosil.com</a>
-      <ul class="header__menu">
-        <li><a href="https://github.com/mythosil"><i class="fab fa-github-square fa-2x"></i></a></li>
-        <li><a href="https://twitter.com/mythosil"><i class="fab fa-twitter-square fa-2x"></i></a></li>
-      </ul>
-    </nav>
-  </header>
+  <div class="profile">
+    <img src="./img/avatar.jpg" width="100" height="100" class="profile__avatar">
+    <p class="profile__name">Akito Tabira</p>
+    <p class="profile__about">
+      Software engineer.<br>
+      Love biotechnology, cryptography and quantum computing.
+    </p>
+    <ul class="profile__social">
+      <li>
+        <a href="https://github.com/mythosil">
+          <i class="fab fa-github-square fa-2x"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://twitter.com/mythosil">
+          <i class="fab fa-twitter-square fa-2x"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/akito-tabira-277bb529/">
+          <i class="fab fa-linkedin fa-2x"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
 
-  <section class="container">
-    <img src="./img/okinawa.jpg" alt="Okinawa">
-  </section>
+  <div class="works brief">
+    <p>
+      I'm a software engineer in Tokyo. 
+    </p>
+    <p>
+      Six years experience in payment services.
+      Those systems were primarily written in Java.
+      Spring Boot fits me really well.
+      I have experience with building Android and iOS apps which can top up and transfer money.
+    </p>
+    <p>
+      I've been working on genomics systems over two years.
+      Not only as an software engineer, I do research on genome data as an bioinformatician.
+    </p>
+    <p>
+      Since when I was a graduate students I've been working on simulator for biochemical reactions. The reactions are written in SBML models in the form of ordinary differential equations and our simulator, libSBMLSim, can solves them.
+    </p>
+  </div>
+
+  <hr>
+
+  <div class="works products">
+    <h3>Products</h3>
+    <ul class="products__list fa-ul">
+      <li>
+        <span class="fa-li"><a href="https://github.com/libsbmlsim/libsbmlsim"><i class="fab fa-github"></i></a></span>
+        libSBMLSim: A library for simulating SBML models.
+      </li>
+      <li>
+        <span class="fa-li"><a href="https://github.com/mythosil/sss4j"><i class="fab fa-github"></i></a></span>
+        sss4j: Secret sharing scheme library for Java.
+      </li>
+      <li>
+        <span class="fa-li"><a href="https://github.com/mythosil/regzar"><i class="fab fa-github"></i></a></span>
+        regzar: Remote control for REGZA TV.
+      </li>
+    </ul>
+  </div>
+
+  <hr>
+
+  <div class="works presentations">
+    <h3>Presentations</h3>
+    <ul class="presentations__list fa-ul">
+      <li>
+        <span class="fa-li"><a href="https://www.slideshare.net/AkitoTabira/ss-56244856"><i class="fab fa-slideshare"></i></a></span>
+        秘密分散法の数理(in Japanese)
+      </li>
+    </ul>
+  </div>
+
+  <hr>
+
+  <div class="works publications">
+    <h3>Publications</h3>
+    <ul class="publications__list">
+      <li>
+        Hiromu Takizawa, Kazushige Nakamura, Akito Tabira, Yoichi Chikahara, Tatsuhiro Matsui, Noriko Hiroi, Akira Funahashi, LibSBMLSim: a reference implementation of fully functional SBML simulator, Bioinformatics, Volume 29, Issue 11, 1 June 2013, Pages 1474–1476, <a href="https://doi.org/10.1093/bioinformatics/btt157">https://doi.org/10.1093/bioinformatics/btt157</a>
+      </li>
+      <li>
+        N. Hiroi et al., "In vivo oriented modeling with consideration of intracellular crowding," 2013 35th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), Osaka, 2013, pp. 2716-2719. <a href="https://doi.org/10.1109/EMBC.2013.6610101">doi: 10.1109/EMBC.2013.6610101</a>
+      </li>
+      <li>
+        Keller, R., Dörr, A., Tabira, A. et al. The systems biology simulation core algorithm. BMC Syst Biol 7, 55 (2013) <a href="https://doi.org/10.1186/1752-0509-7-55">doi:10.1186/1752-0509-7-55</a>
+      </li>
+      <li>
+        Hiroi, N., Klann, M., Iba, K. et al. From microscopy data to in silico environments for in vivo-oriented simulations. J Bioinform Sys Biology 2012, 7 (2012) <a href="https://doi.org/10.1186/1687-4153-2012-7">doi:10.1186/1687-4153-2012-7</a>
+      </li>
+      <li>
+        Hiroi N, Okuhara T, Kubojima T, Iba K, Tabira A, Yamashita S, Okada Y, Kobayashi TJ and Funahashi A (2012) Physiological intracellular crowdedness is defined by the perimeter-to-area ratio of sub-cellular compartments. Front. Physio. 3:293. <a href="https://doi.org/10.3389/fphys.2012.00293">doi: 10.3389/fphys.2012.00293</a>
+      </li>
+      <li>
+        Hiroi N, Lu J, Iba K, Tabira A, Yamashita S, Okada Y, Flamm C, Oka K, Köhler G and Funahashi A (2011) Physiological environment induces quick response – slow exhaustion reactions. Front. Physio. 2:50. <a href="https://doi.org/10.3389/fphys.2011.00050">doi: 10.3389/fphys.2011.00050</a>
+      </li>
+    </ul>
+  </div>
+
+  <hr>
 
   <footer class="footer">
-    <small class="footer__copyright">&copy;2018 mythosil.com</small>
+    <small class="footer__copyright">&copy; mythosil.com</small>
   </footer>
 </body>
 </html>

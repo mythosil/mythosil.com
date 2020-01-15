@@ -1,0 +1,91 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #333;
+  background-color: #f0f0f055;
+  font-family: Monaco, Verdana, monospace, sans-serif;
+}
+
+a {
+  color: #f60;
+}
+
+a:hover {
+  color: #fb0a;
+}
+
+hr {
+  max-width: 300px;
+  border-width: 1px 0 0 0;
+  border-color: #333;
+  margin: 16px auto;
+}
+
+.profile {
+  text-align: center;
+  background-color: #333;
+  padding: 64px 0 8px 0;
+  color: white;
+}
+
+.profile__avatar {
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.profile__name {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.profile__about {
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+}
+
+.profile__social {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.profile__social li {
+  display: block;
+  list-style: none;
+  margin: 8px;
+}
+
+.profile__social li i {
+  color: white;
+}
+
+.works {
+  margin: 0 auto;
+  padding: 8px;
+  max-width: 600px;
+}
+
+.works h3:before {
+  content: "[~/";
+}
+
+.works h3:after {
+  content: "]$";
+}
+
+.publications__list li {
+  padding: 8px 0;
+}
+
+.footer {
+  padding: 32px;
+  text-align: center;
+}
+
+.footer__copyright {
+  font-size: 0.8rem;
+}
+
