@@ -7,6 +7,7 @@ body {
   color: #333;
   background-color: #f0f0f055;
   font-family: Monaco, Verdana, monospace, sans-serif;
+  word-wrap: break-word;
 }
 
 a {
@@ -62,6 +63,10 @@ hr {
 
 .profile__social li i {
   color: white;
+}
+
+.profile__social li i:hover {
+  color: #ccc;
 }
 
 .works {
