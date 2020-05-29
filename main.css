@@ -26,10 +26,17 @@ hr {
 }
 
 .profile {
-  text-align: center;
-  background-color: #333;
-  padding: 64px 0 8px 0;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(0, 60, 30);
+  border-bottom: 4px solid rgb(75, 100, 35);
+  padding-top: 36px;
   color: white;
+}
+
+.profile__left {
+  text-align: center;
+  margin: 0 24px;
 }
 
 .profile__avatar {
@@ -44,21 +51,18 @@ hr {
   font-size: 1.2rem;
 }
 
-.profile__about {
+.profile__about p {
   font-size: 0.8rem;
   line-height: 1.3rem;
 }
 
 .profile__social {
-  display: flex;
-  justify-content: center;
   padding: 0;
 }
 
 .profile__social li {
-  display: block;
+  display: inline-block;
   list-style: none;
-  margin: 8px;
 }
 
 .profile__social li i {
