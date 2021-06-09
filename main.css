@@ -5,7 +5,6 @@ html, body {
 
 body {
   color: #333;
-  background-color: #f0f0f055;
   font-family: Monaco, Verdana, monospace, sans-serif;
   word-wrap: break-word;
 }
@@ -18,11 +17,12 @@ a:hover {
   color: #fb0a;
 }
 
-hr {
-  max-width: 300px;
-  border-width: 1px 0 0 0;
-  border-color: #333;
-  margin: 16px auto;
+section:nth-child(odd) {
+  background-color: #fbfbfb;
+}
+
+section:nth-child(even) {
+  background-color: #fff;
 }
 
 .profile {
@@ -91,43 +91,30 @@ hr {
   padding: 8px 0;
 }
 
-.yakushima {
-  position: relative;
-  margin: 0 auto;
-  max-width: 600px;
-}
-
-.yakushima img {
-  width: 100%;
-}
-
-.yakushima p {
-  position: absolute;
-  bottom: 0;
-  right: 8px;
+.footer {
   font-size: 0.8rem;
+  text-align: center;
 }
 
-.yakushima i {
+.footer img {
+  width: 100%;
+  max-width: 600px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px #aaa;
+}
+
+.footer i {
   color: red;
 }
 
-.yakushima a {
+.footer a {
   color: red;
   font-style: oblique;
   text-decoration: none;
 }
 
-.yakushima a:hover {
+.footer a:hover {
   text-decoration: underline;
-}
-
-.footer {
-  padding: 32px;
-  text-align: center;
-}
-
-.footer__copyright {
-  font-size: 0.8rem;
 }
 

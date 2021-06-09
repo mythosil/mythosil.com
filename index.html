@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-  <div class="profile">
+  <header class="profile">
     <div class="profile__left">
       <img src="./img/avatar.jpg" alt="avatar" class="profile__avatar">
       <ul class="profile__social">
@@ -47,116 +47,108 @@
         <p>Love biotechnology, cryptography and natural computing.</p>
       </div>
     </div>
-  </div>
+  </header>
 
-  <div class="works brief">
-    <p>
-      I'm a software engineer in Japan.
-    </p>
-    <p>
-      I have experiences in payment, e-commerce, genomics, and etc.
-    </p>
-    <p>
-      Currently, I'm working on medical systems to support medical professionals.
-      Not only as a software engineer but also I research genome data as a bioinformatician.
-    </p>
-    <p>
-      Also, I've been working on a simulator for biochemical reactions since when I was a graduate student.
-      The mathematical models of the reactions are expressed as ODEs in <a href="http://sbml.org/">SBML</a>,
-      and our simulator, <a href="https://github.com/libsbmlsim/libsbmlsim">libSBMLSim</a>, can solve them.
-      <br>
-      I'm a member of National Resource for Network Biology (NRNB) organization.
-      We do mentoring for Google Summer of Code.
-      If you're interested in participating in GSoC, see <a href="https://nrnb.org/gsoc.html">this page</a> and contact us.
-    </p>
-  </div>
+  <section>
+    <div class="works brief">
+      <p>
+        I'm working on communication and learning platforms for medical professionals as an engineering manager.
+      </p>
+      <p>
+        In my previous job I was developing the systems of payment, e-commerce, genomics and etc.
+      </p>
+      <p>
+        I've been working on a simulator for biochemical reactions since when I was a graduate student.
+        The mathematical models of the reactions are expressed as ODEs in <a href="http://sbml.org/">SBML</a>,
+        and our simulator <a href="https://github.com/libsbmlsim/libsbmlsim">libSBMLSim</a> can solve them.
+        <br>
+        I'm a member of National Resource for Network Biology (NRNB) organization.
+        We do mentoring for Google Summer of Code.
+        If you're interested in participating in GSoC, see <a href="https://nrnb.org/gsoc.html">this page</a> and contact us.
+      </p>
+    </div>
+  </section>
 
-  <hr>
+  <section>
+    <div class="works products">
+      <h3>Products</h3>
+      <ul class="products__list fa-ul">
+        <li>
+          <span class="fa-li"><a href="https://github.com/libsbmlsim/libsbmlsim"><i class="fab fa-github"></i></a></span>
+          libSBMLSim: A library for simulating SBML models.
+        </li>
+        <li>
+          <span class="fa-li"><a href="https://github.com/mythosil/sss4j"><i class="fab fa-github"></i></a></span>
+          sss4j: Secret sharing scheme library for Java.
+        </li>
+        <li>
+          <span class="fa-li"><a href="https://github.com/mythosil/regzar"><i class="fab fa-github"></i></a></span>
+          regzar: Remote control for REGZA TV.
+        </li>
+        <li>
+          <span class="fa-li"><a href="https://github.com/mythosil/insomnia-plugin-rich-brackets"><i class="fab fa-github"></i></a></span>
+          Rich Brackets Plugin for Insomnia
+        </li>
+      </ul>
+    </div>
+  </section>
 
-  <div class="works products">
-    <h3>Products</h3>
-    <ul class="products__list fa-ul">
-      <li>
-        <span class="fa-li"><a href="https://github.com/libsbmlsim/libsbmlsim"><i class="fab fa-github"></i></a></span>
-        libSBMLSim: A library for simulating SBML models.
-      </li>
-      <li>
-        <span class="fa-li"><a href="https://github.com/mythosil/sss4j"><i class="fab fa-github"></i></a></span>
-        sss4j: Secret sharing scheme library for Java.
-      </li>
-      <li>
-        <span class="fa-li"><a href="https://github.com/mythosil/regzar"><i class="fab fa-github"></i></a></span>
-        regzar: Remote control for REGZA TV.
-      </li>
-      <li>
-        <span class="fa-li"><a href="https://github.com/mythosil/insomnia-plugin-rich-brackets"><i class="fab fa-github"></i></a></span>
-        Rich Brackets Plugin for Insomnia
-      </li>
-    </ul>
-  </div>
+  <section>
+    <div class="works skills">
+      <h3>Skills</h3>
+      <ul class="skills__list">
+        <li>Java, Spring Boot</li>
+        <li>Node.js, Koa.js</li>
+        <li>PHP, Laravel</li>
+        <li>Vue.js</li>
+        <li>React</li>
+        <li>Numerical simulation</li>
+        <li>Genome analysis</li>
+      </ul>
+    </div>
+  </section>
 
-  <hr>
+  <section>
+    <div class="works presentations">
+      <h3>Presentations</h3>
+      <ul class="presentations__list fa-ul">
+        <li>
+          <span class="fa-li"><a href="https://www.slideshare.net/AkitoTabira/ss-56244856"><i class="fab fa-slideshare"></i></a></span>
+          秘密分散法の数理(in Japanese)
+        </li>
+      </ul>
+    </div>
+  </section>
 
-  <div class="works skills">
-    <h3>Skills</h3>
-    <ul class="skills__list">
-      <li>Java, Spring Boot</li>
-      <li>Node.js, Koa.js</li>
-      <li>PHP, Laravel</li>
-      <li>Vue.js</li>
-      <li>React</li>
-      <li>Numerical simulation</li>
-      <li>Genome analysis</li>
-    </ul>
-  </div>
-
-  <hr>
-
-  <div class="works presentations">
-    <h3>Presentations</h3>
-    <ul class="presentations__list fa-ul">
-      <li>
-        <span class="fa-li"><a href="https://www.slideshare.net/AkitoTabira/ss-56244856"><i class="fab fa-slideshare"></i></a></span>
-        秘密分散法の数理(in Japanese)
-      </li>
-    </ul>
-  </div>
-
-  <hr>
-
-  <div class="works publications">
-    <h3>Publications</h3>
-    <ul class="publications__list">
-      <li>
-        Hiromu Takizawa, Kazushige Nakamura, Akito Tabira, Yoichi Chikahara, Tatsuhiro Matsui, Noriko Hiroi, Akira Funahashi, LibSBMLSim: a reference implementation of fully functional SBML simulator, Bioinformatics, Volume 29, Issue 11, 1 June 2013, Pages 1474–1476, <a href="https://doi.org/10.1093/bioinformatics/btt157">https://doi.org/10.1093/bioinformatics/btt157</a>
-      </li>
-      <li>
-        N. Hiroi et al., "In vivo oriented modeling with consideration of intracellular crowding," 2013 35th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), Osaka, 2013, pp. 2716-2719. <a href="https://doi.org/10.1109/EMBC.2013.6610101">doi: 10.1109/EMBC.2013.6610101</a>
-      </li>
-      <li>
-        Keller, R., Dörr, A., Tabira, A. et al. The systems biology simulation core algorithm. BMC Syst Biol 7, 55 (2013) <a href="https://doi.org/10.1186/1752-0509-7-55">doi:10.1186/1752-0509-7-55</a>
-      </li>
-      <li>
-        Hiroi, N., Klann, M., Iba, K. et al. From microscopy data to in silico environments for in vivo-oriented simulations. J Bioinform Sys Biology 2012, 7 (2012) <a href="https://doi.org/10.1186/1687-4153-2012-7">doi:10.1186/1687-4153-2012-7</a>
-      </li>
-      <li>
-        Hiroi N, Okuhara T, Kubojima T, Iba K, Tabira A, Yamashita S, Okada Y, Kobayashi TJ and Funahashi A (2012) Physiological intracellular crowdedness is defined by the perimeter-to-area ratio of sub-cellular compartments. Front. Physio. 3:293. <a href="https://doi.org/10.3389/fphys.2012.00293">doi: 10.3389/fphys.2012.00293</a>
-      </li>
-      <li>
-        Hiroi N, Lu J, Iba K, Tabira A, Yamashita S, Okada Y, Flamm C, Oka K, Köhler G and Funahashi A (2011) Physiological environment induces quick response – slow exhaustion reactions. Front. Physio. 2:50. <a href="https://doi.org/10.3389/fphys.2011.00050">doi: 10.3389/fphys.2011.00050</a>
-      </li>
-    </ul>
-  </div>
-
-  <hr>
-
-  <div class="yakushima">
-    <img src="./img/yakushima-kayak.jpg" alt="Yakushima">
-    <p><i class="fas fa-heart"></i> <a href="https://en.wikipedia.org/wiki/Yakushima">Yakushima</a></p>
-  </div>
+  <section>
+    <div class="works publications">
+      <h3>Publications</h3>
+      <ul class="publications__list">
+        <li>
+          Hiromu Takizawa, Kazushige Nakamura, Akito Tabira, Yoichi Chikahara, Tatsuhiro Matsui, Noriko Hiroi, Akira Funahashi, LibSBMLSim: a reference implementation of fully functional SBML simulator, Bioinformatics, Volume 29, Issue 11, 1 June 2013, Pages 1474–1476, <a href="https://doi.org/10.1093/bioinformatics/btt157">https://doi.org/10.1093/bioinformatics/btt157</a>
+        </li>
+        <li>
+          N. Hiroi et al., "In vivo oriented modeling with consideration of intracellular crowding," 2013 35th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), Osaka, 2013, pp. 2716-2719. <a href="https://doi.org/10.1109/EMBC.2013.6610101">doi: 10.1109/EMBC.2013.6610101</a>
+        </li>
+        <li>
+          Keller, R., Dörr, A., Tabira, A. et al. The systems biology simulation core algorithm. BMC Syst Biol 7, 55 (2013) <a href="https://doi.org/10.1186/1752-0509-7-55">doi:10.1186/1752-0509-7-55</a>
+        </li>
+        <li>
+          Hiroi, N., Klann, M., Iba, K. et al. From microscopy data to in silico environments for in vivo-oriented simulations. J Bioinform Sys Biology 2012, 7 (2012) <a href="https://doi.org/10.1186/1687-4153-2012-7">doi:10.1186/1687-4153-2012-7</a>
+        </li>
+        <li>
+          Hiroi N, Okuhara T, Kubojima T, Iba K, Tabira A, Yamashita S, Okada Y, Kobayashi TJ and Funahashi A (2012) Physiological intracellular crowdedness is defined by the perimeter-to-area ratio of sub-cellular compartments. Front. Physio. 3:293. <a href="https://doi.org/10.3389/fphys.2012.00293">doi: 10.3389/fphys.2012.00293</a>
+        </li>
+        <li>
+          Hiroi N, Lu J, Iba K, Tabira A, Yamashita S, Okada Y, Flamm C, Oka K, Köhler G and Funahashi A (2011) Physiological environment induces quick response – slow exhaustion reactions. Front. Physio. 2:50. <a href="https://doi.org/10.3389/fphys.2011.00050">doi: 10.3389/fphys.2011.00050</a>
+        </li>
+      </ul>
+    </div>
+  </section>
 
   <footer class="footer">
-    <small class="footer__copyright">&copy; mythosil.com</small>
+    <img src="./img/yakushima-kayak.jpg" alt="Yakushima">
+    <p><i class="fas fa-heart"></i> <a href="https://en.wikipedia.org/wiki/Yakushima">Yakushima</a></p>
   </footer>
 </body>
 </html>
