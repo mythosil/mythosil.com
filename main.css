@@ -10,11 +10,11 @@ body {
 }
 
 a {
-  color: #f60;
+  color: #c75000;
 }
 
 a:hover {
-  color: #fb0a;
+  color: #ff6700;
 }
 
 .profile {
@@ -71,18 +71,19 @@ a:hover {
   max-width: 600px;
 }
 
-.works h3 {
+.works h2 {
   color: white;
+  font-size: 1.2em;
   background-color: rgb(0, 60, 30);
   border-bottom: 4px solid rgb(75, 100, 35);
   padding: 8px 8px 4px;
 }
 
-.works h3:before {
+.works h2:before {
   content: "[~/";
 }
 
-.works h3:after {
+.works h2:after {
   content: "]$";
 }
 
@@ -98,6 +99,7 @@ a:hover {
 .footer img {
   width: 100%;
   max-width: 600px;
+  height: auto;
   border: 1px solid #eee;
   border-radius: 8px;
   box-shadow: 0 2px 4px #aaa;
@@ -108,7 +110,7 @@ a:hover {
 }
 
 .footer a {
-  color: red;
+  color: #eb0000;
   font-style: oblique;
   text-decoration: none;
 }
